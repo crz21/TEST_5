@@ -1,0 +1,16 @@
+..\obj\esp8266.o: ..\HARDWARE\ESP8266\ESP8266.c
+..\obj\esp8266.o: D:\Applications\keil\ARM\ARMCC\Bin\..\include\string.h
+..\obj\esp8266.o: ..\SYSTEM\sys\sys.h
+..\obj\esp8266.o: ..\SYSTEM\sys\stm32f4xx.h
+..\obj\esp8266.o: ..\SYSTEM\sys\stm32f429xx.h
+..\obj\esp8266.o: ..\SYSTEM\sys\core_cm4.h
+..\obj\esp8266.o: D:\Applications\keil\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\esp8266.o: ..\SYSTEM\sys\core_cmInstr.h
+..\obj\esp8266.o: ..\SYSTEM\sys\cmsis_armcc.h
+..\obj\esp8266.o: ..\SYSTEM\sys\core_cmFunc.h
+..\obj\esp8266.o: ..\SYSTEM\sys\core_cmSimd.h
+..\obj\esp8266.o: ..\SYSTEM\sys\system_stm32f4xx.h
+..\obj\esp8266.o: ..\SYSTEM\usart\usart.h
+..\obj\esp8266.o: D:\Applications\keil\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\esp8266.o: ..\SYSTEM\delay\delay.h
+..\obj\esp8266.o: ..\HARDWARE\ESP8266\ESP8266.h

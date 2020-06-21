@@ -1,0 +1,65 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.25.3.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: joe chen, 123, LIC=IK12Z-JC8FC-EHC8P-MBML8-UXXRY-XVUVW
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.18a
+Toolchain Path:  D:\Applications\keil\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.18a
+Dialog DLL:      DCM.DLL V1.13.6.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.14.8.0
+ 
+<h2>Project:</h2>
+E:\code\test\TEST\TEST_5\UATR_STM32_ESP8266\USER\TEST.uvprojx
+Project File Date:  06/20/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'D:\Applications\keil\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+assembling startup_stm32f429xx.s...
+compiling usart.c...
+compiling ESP8266.c...
+..\HARDWARE\ESP8266\ESP8266.c(29): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
+  	tx_len = strlen(tx_str);
+..\HARDWARE\ESP8266\ESP8266.c(27): warning:  #550-D: variable "rx_len" was set but never used
+    u16 rx_len = 0;
+..\HARDWARE\ESP8266\ESP8266.c: 2 warnings, 0 errors
+compiling delay.c...
+compiling test.c...
+test.c(17): warning:  #177-D: variable "times" was declared but never referenced
+  	u16 times=0; 
+test.c: 1 warning, 0 errors
+compiling sys.c...
+compiling led.c...
+linking...
+Program Size: Code=2424 RO-data=460 RW-data=12 ZI-data=2348  
+FromELF: creating hex file...
+"..\OBJ\TEST.axf" - 0 Error(s), 3 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.9.0.pack
+                Keil.STM32F4xx_DFP.2.9.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  D:\Applications\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>
